@@ -1,8 +1,8 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Login from "../pages/auth/Login.tsx";
-import Signup from "../pages/auth/Signup.tsx";
-import Dashboard from "../pages/dashboard/Dashboard.tsx";
-import { useAuth } from "../context/authContext.tsx";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Login from '../pages/auth/Login';
+import Signup from '../pages/auth/Signup';
+import Dashboard from '../pages/dashboard/Dashboard';
+import { useAuth } from '../context/authContext';
 import ProtectedRoute from "./ProtectedRoute.tsx";
 
 function AppRoutes() {

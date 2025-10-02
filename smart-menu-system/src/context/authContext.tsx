@@ -1,5 +1,7 @@
-import React, { createContext, useContext, useState, ReactNode } from 'react';
-import { users, UserType } from '../data/users';
+import React, { createContext, useContext, useState } from 'react';
+import type { ReactNode } from 'react';
+import { users} from '../data/users';
+import type { UserType } from '../data/users';
 
 interface AuthContextType {
   user: UserType | null;

@@ -1,8 +1,8 @@
-import { Navigate } from "react-router-dom";
-import { useAuth } from "../context/AuthContext";
+import { Navigate } from 'react-router-dom';
+import { useAuth } from '../context/authContext';
 
 interface ProtectedRouteProps {
-  children: JSX.Element;
+  children: React.ReactNode;
   roles?: string[]; // optional allowed roles
 }
 
